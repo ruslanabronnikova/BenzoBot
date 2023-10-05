@@ -1,3 +1,17 @@
+/* Стили для экранов шире 428px */
+@media (min-width: 429px) {
+  .container {
+    max-width: 428px;
+    margin: 0 auto; 
+  }
+  .container-fluid {
+    max-width: 428px;
+    margin: 0 auto; /* Центрировать контейнер */
+  }
+}
+
+/* style header */
+
 .navbar-toggler {
   border: none;
   border-radius: 0;
@@ -14,6 +28,13 @@
   background: var(--neutral-01, #fcfcfc);
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.azs-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
 }
 
 .btn-custom {
@@ -66,6 +87,7 @@
   font-style: normal;
   font-weight: 600;
   line-height: 24px;
+  text-align: center;
 }
 
 .box-number {
@@ -107,6 +129,7 @@
   font-weight: 700;
   line-height: 16px;
   color: #83BF6E;
+  text-align: -webkit-right;
 }
 
 .form-check-input:checked {
@@ -143,3 +166,82 @@
   font-size: 15px;
   font-weight: 600;
 }
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.3rem;
+}
+
+.title-refil-number {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  color: #83BF6E;
+  margin-bottom: 30px;
+}
+
+.form-control[readonly]:focus {
+  color: var(--bs-body-color);
+  background-color: #efefef;
+  border-color: #efefef;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control[readonly] {
+  background-color: #EFEFEF;
+  font-size: 14px;
+  padding-right: 0;
+}
+
+.form-control:focus {
+  color: var(--bs-body-color);
+  background-color: transparent;
+  border-color: #83BF6E;
+  outline: 0;
+  box-shadow: none;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 12px;
+  background-color: #EFEFEF;
+}
+
+.custom-input {
+  border-right: none;
+}
+
+.custom-value {
+  color: #83BF6E;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.bg-color-92 {
+  background-color: #cabdff;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+.bg-color-95 {
+  background-color: #B1E5FC;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+.bg-color-95K {
+  background-color: #B5E4CA;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+.bg-color-DT {
+  background-color: #C9D1E5;
+  padding: 2px 12px;
+  border-radius: 6px;
+}
+
+

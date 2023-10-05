@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/bootstrap-reboot.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="./fonts/inter.css">
+  <title>Идет заправка</title>
+</head>
+
+<body>
+  <!-- header -->
+  <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a href="javascript:history.back()" class="btn btn-link">
+        <img src="./img/arrow.svg" alt="" />
+      </a>
+      <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg" alt="" /></a>
+    </div>
+  </nav>
+
+  <section class="main-title">
+    <div class="container mt-5">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <h1 class="mt-5 title-h1">АЗС - 135</h1>
+          <ul class="list-inline list-unstyled d-flex align-items-center mt-2">
+            <li class="list-inline-item"><img src="./img/local.svg" alt="" /></li>
+            <li class="list-inline-item">
+              <p class="mb-0">Волгоград, ул.Лазоревая 17 </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </section>
+
+  <section class="number-column">
+    <div class="container container-main-custom">
+      <div class="row align-items-center">
+        <div class="col-8">
+          <ul class="list-inline list-unstyled mb-0">
+            <li class="list-inline-item"><img src="./img/iconcolumn.svg" alt=""></li>
+            <li class="list-inline-item">
+              <h2>Номер колонки</h2>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="input-group">
+            <input type="text" class="form-control" value="4" readonly>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="type-toplivo">
+    <div class="container container-main-custom mt-3">
+      <div class="row align-items-center">
+        <div class="col-8">
+          <ul class="list-inline list-unstyled mb-0">
+            <li class="list-inline-item"><img src="./img/icontoplivo.svg" alt=""></li>
+            <li class="list-inline-item">
+              <h2>Тип топлива</h2>
+            </li>
+          </ul>
+        </div>
+        <div class="col-4">
+          <div class="input-group">
+            <input type="text" class="form-control" value="АИ-92" readonly>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="quantity">
+    <div class="container container-main-custom mt-3">
+      <div class="row align-items-center">
+        <div class="col-7">
+          <ul class="list-inline list-unstyled mb-0">
+            <li class="list-inline-item"><img src="./img/iconspeed.svg" alt=""></li>
+            <li class="list-inline-item">
+              <h2>Количество</h2>
+            </li>
+          </ul>
+        </div>
+        <div class="col-5">
+          <div class="input-group">
+            <input type="text" class="form-control custom-input" value="20л." readonly>
+            <span class="custom-value">56.70₽</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="refill">
+    <div class="container container-main-custom mt-3">
+      <div class="row align-items-center">
+        <div class="col-12">
+          <ul class="list-inline list-unstyled mb-0">
+            <li class="list-inline-item"><img src="./img/refill.svg" alt=""></li>
+            <li class="list-inline-item">
+              <h2>Заправка</h2>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row mt-3">
+        <div class="col-6">
+          <h4>Стоимость</h4>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <p class="input-sign">₽</p>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="6" readonly>
+          </div>
+        </div>
+        <div class="col-6">
+          <h4>Объем</h4>
+          <div class="input-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text">
+                <p class="input-sign">Л</p>
+              </span>
+            </div>
+            <input type="text" class="form-control" placeholder="4" readonly>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5 align-items-center justify-content-center">
+        <div class="col-12">
+          <h5 class="title-refil-number">99</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -19,23 +19,7 @@
         aria-controls="offcanvasNavbar" aria-label="Переключить навигацию">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-        <div class="offcanvas-header">
-          <img src="./img/logo.svg" />
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Закрыть"></button>
-        </div>
-        <div class="offcanvas-body">
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Главная</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Ссылка</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <a class="navbar-brand" href="#"><img src="./img/logo.svg" /></a>
+      <a class="navbar-brand" href="./index.html"><img src="./img/logo.svg" alt="" /></a>
     </div>
   </nav>
 
@@ -52,16 +36,18 @@
   <section class="main-container">
     <div class="container container-main-custom mt-3">
       <div class="row align-items-center">
-        <div class="col-9">
+        <div class="col-8">
           <ul class="list-inline list-unstyled mb-0">
-            <li class="list-inline-item"><img src="./img/tagmain.svg"></li>
-            <li class="list-inline-item"><h2>Заголовок</h2></li>
+            <li class="list-inline-item"><img src="./img/tagmain.svg" alt=""></li>
+            <li class="list-inline-item">
+              <h2>Заголовок</h2>
+            </li>
           </ul>
         </div>
-        <div class="col-3">
+        <div class="col-4">
           <ul class="list-inline list-unstyled mb-0">
-            <li class="list-inline-item active-btn"><img src="./img/filled.svg" /></li>
-            <li class="list-inline-item"><img src="./img/light.png" /></li>
+            <li class="list-inline-item active-btn"><img src="./img/filled.svg" alt="" /></li>
+            <li class="list-inline-item"><img src="./img/light.png" alt="" /></li>
           </ul>
         </div>
       </div>
@@ -81,13 +67,15 @@
       </div>
 
       <div class="row mt-3">
-        <div class="col-4">
-          <img src="./img/AZS135.png">
+        <div class="col-5">
+          <a href="/infoazs.html">
+            <img class="azs-img" src="./img/AZS135.png">
+          </a>
         </div>
-        <div class="col-8 d-flex flex-column gy-8">
+        <div class="col-7 d-flex flex-column gy-8">
           <h3>АЗС - 135<br> название в 2 стр</h3>
           <ul class="list-inline list-unstyled d-flex align-items-center mt-2 mb-2">
-            <li class="list-inline-item"><img src="./img/local.svg" /></li>
+            <li class="list-inline-item"><img src="./img/local.svg" alt="" /></li>
             <li class="list-inline-item">
               <p class="mb-0">Волгоград, ул. <br> Лазоревая 17 </p>
             </li>
@@ -107,30 +95,32 @@
       </div>
 
       <div class="row mt-3">
-        <div class="col-4">
-          <img src="./img/AZS135.png">
-        </div>
-        <div class="col-8">
-          <h3>Бензобот в одну<br> стр</h3>
-          <ul class="list-inline list-unstyled d-flex align-items-center mt-2 mb-2">
-            <li class="list-inline-item"><img src="./img/local.svg" /></li>
-            <li class="list-inline-item">
-              <p class="mb-0">Москва <br> ул. Свободы, вла.  70 </p>
-            </li>
-          </ul>
-          <ul class="list-inline list-unstyled">
-            <li class="list-inline-item colored-box">
-              <p>92</p>
-            </li>
-            <li class="list-inline-item colored-box">
-              <p>95</p>
-            </li>
-          </ul>
-        </div>
+          <div class="col-5">
+            <a href="/infoazs.html">
+              <img class="azs-img" src="./img/AZS135.png">
+            </a>
+          </div>
+          <div class="col-7">
+            <h3>Бензобот в одну<br> стр</h3>
+            <ul class="list-inline list-unstyled d-flex align-items-center mt-2 mb-2">
+              <li class="list-inline-item"><img src="./img/local.svg" alt="" /></li>
+              <li class="list-inline-item">
+                <p class="mb-0">Москва <br> ул. Свободы, вла. 70 </p>
+              </li>
+            </ul>
+            <ul class="list-inline list-unstyled">
+              <li class="list-inline-item colored-box">
+                <p>92</p>
+              </li>
+              <li class="list-inline-item colored-box">
+                <p>95</p>
+              </li>
+            </ul>
+          </div>
       </div>
 
       <div class="row mt-3 justify-content-center align-items-center">
-        <button class="btn-custom"><img src="./img/loadbtn.svg">
+        <button class="btn-custom"><img src="./img/loadbtn.svg" alt="">
           Другие АЗС</button>
       </div>
     </div>
