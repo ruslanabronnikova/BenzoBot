@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'DigitalCyrillic1';
+	src: url('../fonts/digitalcyrillic1.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/digitalcyrillic1.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/digitalcyrillic1.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/digitalcyrillic1.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/digitalcyrillic1.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/digitalcyrillic1.svg#digitalcyrillic1') format('svg'); /* Chrome < 4, Legacy iOS */
+}
