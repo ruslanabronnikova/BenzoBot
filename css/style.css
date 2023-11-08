@@ -315,3 +315,16 @@
 		);
 	}
 }
+
+.custom-dotlottie {
+  width: 300px;
+  height: 300px;
+  overflow: hidden; 
+  clip-path: inset(50px 50px 50px 50px); 
+}
+
+.custom-animate {
+  width: 200px;
+  height: 200px;
+  overflow: hidden; 
+}
